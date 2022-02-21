@@ -12,6 +12,7 @@
 - ввести команду `git clone https://github.com/katrin55/TXT.git`
 
 3. Внутри локального TXT создать файл “new.txt”.
+- зайти в папку созданного репозитория `cd TXT`
 - в терминале ввести: `cat > new.txt`
 - выйти из режима редактирования: `Ctrl+C`
 
@@ -37,12 +38,13 @@ futureSalary - 50000
 - для сохранения нажать esc :wq
 
 8. Отправить изменения на внешний репозиторий. \
-`git commit -am "change file new.txt`
+`git commit -am "change file new.txt` \
+`git push`
 
 9. Создать файл preferences.txt.
 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
 - ввести `vim preferences.txt`
- - добавить: 
+- добавить: 
 ```
 country i would like to visit - Switzerland
 favorite movie - "1+1"
@@ -77,6 +79,8 @@ Skills:
 19. Redis non-relational database
 20. Load Testing with Jmeter
 ```
+- для сохранения нажать esc :wq
+
 12. Сделать коммит в одну строку. \
 ` git add . && git commit -m "add 2 files txt"`
 
@@ -113,10 +117,10 @@ Steps to Reproduce :
 Expected Result : On clicking the SAVE button you should be prompted to a successful message: "New User has been created successfully".
 ```
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. \
-нажать кнопку `Commit new file`
+- нажать кнопку `Commit new file`
 
 18. Синхронизировать внешний и локальный репозиторий TXT. \
- в терминале GitBash ввести `git pull`
+- в терминале GitBash ввести `git pull`
 
 
 
